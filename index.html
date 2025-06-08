@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png">
+                    <img src="images/user.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title"> About Me</h1>
@@ -48,9 +48,9 @@
 
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                        <a class="tab-links" onclick="opentab('experience')">Experience</a>
+                        <a class="tab-links" onclick="opentab('education')">Education</a>
                     </div>
 
                     <div class="tab-contents active-tab" id="skills">
@@ -154,8 +154,10 @@
         </div>
     </div>
 
-
     <!-----------------------------Contact-------------------------->
+
+
+
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -194,7 +196,6 @@
         </div>
 
     </div>
-
 
 
 
@@ -251,26 +252,6 @@
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
-
-
-
-
-    <!--------------
-
-    <div class="container">
-        <h2>Get in Touch</h2>
-        <form onsubmit="emailSend(); reset(); return false;" >
-        <input type="text" id="name" placeholder="name" name="name" required>
-            <input type="text" id="phone" placeholder="phone" name="phone" required> 
-            <input type="email" id="email" placeholder="email" name="email" required>
-
-            <button type="submit" class="btn">submit</button>
-        </form>
-    </div>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-        <script src="Contact form to email.js"> </script>
------>
 </body>
 
 </html>
