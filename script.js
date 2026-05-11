@@ -19,12 +19,22 @@ const skillsData = [
 ];
 
 const portfolioData = [
+
+{
+title: "Smart Gym AI",
+desc: "An AI-powered fitness assistant web application built using FastAPI and Python. The system includes AI workout and diet planning, calorie tracking, progress analytics, AI chatbot support, pose detection using computer vision, voice assistant integration, and user authentication with a modern responsive dashboard UI.",
+tech: ["Python", "FastAPI", "HTML", "CSS", "JavaScript", "OpenAI API", "SQLite", "Computer Vision"],
+live: "#",
+code: "https://github.com/lochan766/Smart-Gym-AI"
+},
+
+
    {
   title: "Sakshyam Vet & Pet Care (Dynamic Web Application)",
   desc: "A full-stack dynamic veterinary clinic website developed with PHP and MySQL. It features service management, blog posts, appointment booking system, contact form handling, gallery display, and an admin dashboard for CRUD operations. Designed with responsive UI using HTML, CSS, JavaScript, and Bootstrap.",
   tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
   live: "https://sakshyamvet.com/",
-  code: "#"
+  code: "https://github.com/lochan766/veterinary-management-system"
 },
   {
     title: "Subject-wise Attendance Management System",
@@ -33,6 +43,15 @@ const portfolioData = [
     live: "#",
     code: "https://github.com/lochan766/Subject_Wise_attendance_Management_System"
   },
+
+    {
+      
+  title: "Lochan Samser Rana <br>Portfolio Website",
+desc: "Modern responsive portfolio website built using HTML, CSS, JavaScript, and Bootstrap featuring glassmorphism UI, gradient glow effects, animated background particles, interactive navigation, skills showcase, social media integration, WhatsApp floating button, smooth scrolling, and light/dark mode toggle.",
+  tech: [ "HTML", "CSS", "JavaScript", "Bootstrap"],
+  live: "https://www.ranalochan.com.np/",
+  code: "https://github.com/lochan766/portfolio-website"
+},
   {
     title: "Personal Portfolio Website",
     desc: "A modern single-page portfolio with smooth navigation and responsive layout.",
